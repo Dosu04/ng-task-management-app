@@ -4,8 +4,8 @@
     <hr />
     <form (ngSubmit)="onSubmit(taskForm)" #taskForm="ngForm">
       <div class="mb-3">
-        <label for="task" class="form-label">Task</label>
-        <input type="text" class="form-control" id="" ngModel name="task" placeholder="Enter a task..." required/>
+        <label for="task" class="form-label">Enter a task</label>
+        <input type="text" class="form-control" id="" ngModel name="task" placeholder="e.g. Read docs" required/>
         <div *ngIf="taskForm.invalid && taskForm.dirty" id="errorMessage" class="form-text text-danger">Required Field</div>
       </div>
       <button [disabled]="taskForm.invalid" type="submit" class="btn btn-success">Submit</button>
