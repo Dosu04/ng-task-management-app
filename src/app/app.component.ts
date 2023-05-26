@@ -9,7 +9,7 @@ import { NgForm } from '@angular/forms';
 export class AppComponent {
   title = 'todo';
 
-  taskArray = [{taskName: 'Read through Angular docs ', isDone: false}]
+  taskArray = [{taskName: 'Build ITeMS intern registration platform', isDone: false}]
 
   onSubmit(form: NgForm){
     
