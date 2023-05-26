@@ -1,2 +1,2 @@
 # Dosu Task Manager
-Angular to-do list web app
+To-do list web application made with Angular and TypeScript.
