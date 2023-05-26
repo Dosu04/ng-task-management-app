@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+button{
+    display: grid;
+    place-items: center;
+    border: none;
+}
+.container{
+    padding-top: 3rem;
+    
+}
+body{
+    background-color: #0f0f0f;
+    color: white;
+    height: 100vh;
+}
+th,td{
+    color: white;
+}
