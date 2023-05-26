@@ -15,6 +15,8 @@ body{
     background-color: #0f0f0f;
     color: white;
     height: 100vh;
+    font-family: Georgia,Times New Roman,Times,serif
+
 }
 th,td{
     color: white;
